@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+.flex-container {
+    display: flex;
+	background-color: aqua;
+}
+.flex-container>div, .flex-container-2 div, .flex-container-5 div {
+   background-color: greenyellow;
+margin: 10px;
+	padding: 20px;
+	font-size: 32px;
+	width: 400px;
+}
+
+.flex-container-2 {
+    display: flex;
+	background-color: aqua;
+	flex-direction: row-reverse;
+}
+.flex-container-2>div, .flex-container-3>div {
+   background-color: greenyellow;
+margin: 20px;
+	padding: 20px;
+	font-size: 32px;
+	width: 500px;
+	text-align: center;
+}
+.flex-container-4>div, .flex-container-5 div, .flex-container-6 div, .flex-container-7 div, .flex-container-8 div {
+   background-color: greenyellow;
+margin: 20px;
+	padding: 20px;
+	font-size: 32px;
+	width: 200px;
+	text-align: center;
+}
+
+.flex-container-3 {
+    display: flex;
+	background-color: aqua;
+	flex-direction: wrap-reverse;
+}
+.flex-container-4 {
+    display: flex;
+	flex-flow: row wrap;
+	background-color: aqua;
+}
+.flex-container-6 div {
+	width: 100px;
+}
+.flex-container-7 div{
+	width: 100px;
+}
+
+.flex-container-8 div {
+	width: 200px;
+	height: 200px;
+}
+
+section {
+   margin: 10px;
+}
+.flex-container-5 {
+    display: flex;
+	justify-content: center;
+	background-color: orange;
+}
+
+.flex-container-6 {
+    display: flex;
+	height: 600px;
+	flex-wrap: wrap;
+	background-color: yellow;
+	align-content:stretch;
+}
+.flex-container-7 {
+    display: flex;
+	height: 200px;
+	background-color: hotpink;
+	align-items: center;
+}
+
+.flex-container-8 {
+    display: flex;
+	height: 400px;
+	background-color: cornflowerblue;
+	align-items: center;
+	justify-content: center;
+}
+

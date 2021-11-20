@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+nav, ul, li {
+	display: inline-block;
+	text-decoration: none;
+	width:inherit;
+	text-decoration: none;
+	padding: 0px 80px;
+	color: mediumseagreen;
+	background-color: #db027c;
+	text-align: left;
+	font-size: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+h1 {
+		color: #FFFFFF;
+		font-size: 70px;
+		}
+
+.cabezera {
+	font-family: Helvetica;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: black;
+	font-size: 200px;
+	text-align: right;
+		}
+header {
+	background-color: black;
+		}
+main{
+			height: auto;
+			background-color: black;
+		}
+footer {
+    background-color: #db027c;
+    font-family: helvetica;
+	color: #fff;
+	font-size: 30px;
+	text-align: center
+}
+
+
+.imagen_six {
+   
+	align-items: center;
+	}
+.Encabezado {
+	color: orangered;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+
+.flotante {
+    float: inherit;
+}
+
+.flex-container {
+    display: flex;
+	background-color: black;
+}
+.flex-container>div{
+   background-color: black;
+margin: 10px;
+	padding: 20px;
+	font-size: 150px;
+	width:inherit;
+}
+.parrafo { color: white;
+			padding: 50px;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			font-size: 45px;
+}
+
+.flex-container-6 div {
+	width: 100px;
+}
+.flex-container-3 {
+    display: flex;
+	background-color: rebeccapurple;
+	flex-direction: wrap-reverse;
+}
+.flex-container-3>div {
+   background-color: orange;
+	margin: 20px;
+	padding: 20px;
+	font-size: 32px;
+	width: 500px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: left;
+}
+
+.Toro{
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			width: 1080px;
+			background-color: black;
+			margin: 30px auto;
+			color: white;
+			padding: 50px;
+			font-size: 40px;
+	text-align: center
+		}

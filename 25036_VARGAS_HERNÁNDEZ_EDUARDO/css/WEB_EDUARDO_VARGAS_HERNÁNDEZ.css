@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav, ul, li {
+	display: inline-block;
+	text-decoration: none;
+	width:inherit;
+	text-decoration: none;
+	padding: 0px 80px;
+	color: mediumseagreen;
+	background-color: #db027c;
+	text-align: left;
+	height: auto;
+	font-size: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+h1 {
+	color: #FFFFFF;
+	font-size: 70px;
+		}
+
+header {
+		font-family: Helvetica;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: black;
+	font-size: 60px;
+		}
+main{
+	width: 1400px;
+	background-color: black;
+		}
+body{
+	height: 1000px;
+	width: 1400px;
+	background-color: black;
+		}
+
+footer {
+    background-color: #db027c;
+    font-family: helvetica;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+b{color: #db027c
+}
+
+.home {
+	width: 2850px;
+}
+
+.parrafo { color: white;
+			padding: 8px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			font-size: 30px;
+	text-align: justify;
+}
+
+.Encabezado {
+	color: orangered;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.editorial {
+	width: 2830px;
+	display: flex;
+	background-color: black;
+}
+
+.container_titulos {
+	width: 874px;
+	height: 371px;
+	background-color: black;
+	padding-top: 80px; 
+}
+
+.titulos {
+	height: 371px;
+	width: 874px;
+	padding-left: 50px;
+}
+
+.columna_1 {
+	width: 437px;
+	padding-right: 34px;
+	padding-left: 50px;
+	background-color: black;
+}
+
+.columna_2 {
+	width: 543px;
+	padding-right: 34px;
+	background-color: black;
+}
+.carteles {
+	width: 543px;
+	height: 779px;
+}
